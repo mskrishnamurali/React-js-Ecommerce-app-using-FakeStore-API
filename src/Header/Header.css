@@ -1,0 +1,40 @@
+.header{
+    background-color: #151a1f;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    margin:0;
+}
+.logout-btn{
+    background-color: #ff5722;
+    color:#fff;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Ensure the circular shape */
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.logo-img img {
+    width: 100%; /* Ensure the image takes up the full circular container */
+    height: auto; /* Maintain aspect ratio */
+}
